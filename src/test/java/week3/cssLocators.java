@@ -30,9 +30,10 @@ public class cssLocators {
 
         // using index number in Css locator
         // if we have more than one same type of elements, we can use indexing
-        // css locator:nth-of-type(index number)  --> index number is starting from 1
+
+//        css locator:nth-of-type(index number)  --> index number is starting from 1
 //        if its java index is starting 0 if its html index is starting 1
-        // select#state>option:nth-of-type(4)
+
 
     }
 }
