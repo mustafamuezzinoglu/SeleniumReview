@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8e1d1b-f19c-43fd-9827-3897c73fa977" name="Changes" comment="">
+    <list default="true" id="9e8e1d1b-f19c-43fd-9827-3897c73fa977" name="Changes" comment="week 4 finished">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week5/DropdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week5/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week5/TestNgPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utilities/CRM_Utilities_day7_task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utilities/WebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utilities/WebTableUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utilities/utility/ChromeStartUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utilities/utility/RadioUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utilities/utility/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utilities/utility/TestActualExpectedUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/utilities/utility/WaitUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +38,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/By.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -48,49 +62,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/SeleniumReview/src/test",
     "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StaleElement">
-    <configuration name="FindElementsMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4.FindElementsMethod" />
-      <module name="SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4.ImplicitWait" />
-      <module name="SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.Methods" />
-      <module name="SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\IdeaProjects\SeleniumReview\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.DropdownTest.test1">
     <configuration name="RadioButtons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week4.RadioButtons" />
       <module name="SeleniumReview" />
@@ -117,13 +98,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DropdownTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week5" />
+      <option name="MAIN_CLASS_NAME" value="week5.DropdownTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week5" />
+      <option name="MAIN_CLASS_NAME" value="week5.TestNgPractice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgPractice.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week5" />
+      <option name="MAIN_CLASS_NAME" value="week5.TestNgPractice" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DropdownTest.test1" />
+        <item itemvalue="TestNG.TestNgPractice.test2" />
+        <item itemvalue="TestNG.TestNgPractice" />
         <item itemvalue="Application.StaleElement" />
         <item itemvalue="Application.RadioButtons" />
-        <item itemvalue="Application.ImplicitWait" />
-        <item itemvalue="Application.FindElementsMethod" />
-        <item itemvalue="Application.Methods" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +171,10 @@
       <updated>1676063815341</updated>
       <workItem from="1676063817006" duration="2296000" />
       <workItem from="1676112076252" duration="23439000" />
-      <workItem from="1676216938011" duration="1620000" />
+      <workItem from="1676216938011" duration="2804000" />
+      <workItem from="1676481549046" duration="258000" />
+      <workItem from="1676648794362" duration="601000" />
+      <workItem from="1676902773232" duration="6810000" />
     </task>
     <task id="LOCAL-00001" summary="wee2 finished">
       <created>1676122995410</created>
@@ -167,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676217004066</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="week 4 finished">
+      <created>1676223856157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676223856157</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +222,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
