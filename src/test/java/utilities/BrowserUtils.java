@@ -1,16 +1,15 @@
-package com.cydeo.utilities;
+package utilities;
 
 /*
 In this class only general utility methods that are NOT related to some specific page.
  */
 
-import com.cydeo.utilities.Driver;
-import com.sun.jna.WString;
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.*;
-import org.testng.*;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
-import java.util.*;
+import java.util.Set;
 
 public class BrowserUtils {
 

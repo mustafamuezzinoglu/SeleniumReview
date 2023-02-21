@@ -1,4 +1,4 @@
-package com.cydeo.utilities.utility;
+package utilities;
 
 public class WaitUtility {
 
