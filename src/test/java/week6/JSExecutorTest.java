@@ -13,23 +13,26 @@ public class JSExecutorTest extends TestBase {
     public void test1() {
         driver.get("https://www.google.com/");
         WebElement googleSearch = driver.findElement(By.xpath("(//input[@name='btnK'])[2]"));
-        WebElement inputbox = driver.findElement(By.cssSelector("div.YacQv"));
+        WebElement textarea = driver.findElement(By.cssSelector("div.YacQv"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].setAttribute('value','muezzinoglu')", inputbox);
+        js.executeScript("arguments[0].setAttribute('value','muezzinoglu')", textarea);
+        BrowserUtils.sleep(5);
         js.executeScript("arguments[0].click();", googleSearch);
-
     }
 
     @Test
     public void test2() {
         driver.get("http://practice.cybertekschool.com/dynamic_controls");
-        WebElement enable = driver.findElement(By.xpath("(//button[@type='button'])[2]"));
-        enable.click();
-//        JavascriptExecutor js = (JavascriptExecutor) driver;
-//        js.executeScript("arguments[0].setAttribute('value', 'Cydeo10')", input);
-        BrowserUtils.sleep(5);
         WebElement input = driver.findElement(By.xpath("//form[@id='input-example']/input"));
-        input.sendKeys("Cydeo10");
-        // TODO: 26-Feb-23  
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].setAttribute('value', 'Cydeo10')", input);
+        BrowserUtils.sleep(5);
+
+
+//        WebElement enable = driver.findElement(By.xpath("(//button[@type='button'])[2]"));
+//
+//        enable.click();
+
+
     }
 }

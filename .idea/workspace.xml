@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8e1d1b-f19c-43fd-9827-3897c73fa977" name="Changes" comment="some addings">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week5/AlertReview.java" afterDir="false" />
+    <list default="true" id="9e8e1d1b-f19c-43fd-9827-3897c73fa977" name="Changes" comment="some addings too">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week6/ConfirmationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week6/ExplicitWaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week6/pages/SignUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week6/tests/SignUpTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week5/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week5/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week5/WindowsHandleReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week5/WindowsHandleReview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week6/JavaFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/JavaFaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week6/TableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/TableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week6/ActionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/ActionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week6/JSExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/JSExecutorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +71,8 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UploadTest.test1 (1)">
-    <configuration name="JavaFaker.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExplicitWaitTest.test1">
+    <configuration name="ExplicitWaitTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +81,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week6" />
-      <option name="MAIN_CLASS_NAME" value="week6.JavaFaker" />
+      <option name="MAIN_CLASS_NAME" value="week6.ExplicitWaitTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -89,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSExecutorTest.test1 (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -98,7 +99,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week6" />
-      <option name="MAIN_CLASS_NAME" value="week6.TableTest" />
+      <option name="MAIN_CLASS_NAME" value="week6.JSExecutorTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -107,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSExecutorTest.test1 (5)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -116,25 +117,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week6" />
-      <option name="MAIN_CLASS_NAME" value="week6.TableTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UploadTest.test1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week6" />
-      <option name="MAIN_CLASS_NAME" value="week6.UploadTest" />
+      <option name="MAIN_CLASS_NAME" value="week6.JSExecutorTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -143,16 +126,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignUpTest.test1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week6.*" />
+          <option name="PATTERN" value="week6.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week6" />
-      <option name="MAIN_CLASS_NAME" value="week6.UploadTest" />
+      <option name="PACKAGE_NAME" value="week6.tests" />
+      <option name="MAIN_CLASS_NAME" value="week6.tests.SignUpTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week6.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week6.tests" />
+      <option name="MAIN_CLASS_NAME" value="week6.tests.SignUpTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UploadTest.test1 (1)" />
-        <item itemvalue="TestNG.UploadTest.test1" />
-        <item itemvalue="TestNG.JavaFaker.test1" />
-        <item itemvalue="TestNG.TableTest.test2" />
-        <item itemvalue="TestNG.TableTest.test1" />
+        <item itemvalue="TestNG.ExplicitWaitTest.test1" />
+        <item itemvalue="TestNG.SignUpTest.test1" />
+        <item itemvalue="TestNG.SignUpTest.test1 (1)" />
+        <item itemvalue="TestNG.JSExecutorTest.test1 (2)" />
+        <item itemvalue="TestNG.JSExecutorTest.test1 (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +191,7 @@
       <workItem from="1677357823014" duration="10006000" />
       <workItem from="1677794388764" duration="1804000" />
       <workItem from="1677949381505" duration="1683000" />
-      <workItem from="1679143050923" duration="11722000" />
+      <workItem from="1679143050923" duration="21985000" />
     </task>
     <task id="LOCAL-00001" summary="wee2 finished">
       <created>1676122995410</created>
@@ -248,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679150759027</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="some addings too">
+      <created>1679156883976</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679156883976</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +292,8 @@
     <MESSAGE value="week 5 first commit" />
     <MESSAGE value="week 5 finished" />
     <MESSAGE value="some addings" />
-    <option name="LAST_COMMIT_MESSAGE" value="some addings" />
+    <MESSAGE value="some addings too" />
+    <option name="LAST_COMMIT_MESSAGE" value="some addings too" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

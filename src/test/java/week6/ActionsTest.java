@@ -12,6 +12,7 @@ import week5.TestBase;
 
 public class ActionsTest extends TestBase {
 
+    // hover
     @Test
     public void testActions() {
         driver.get("https://chercher.tech/practice/practice-pop-ups-selenium-webdriver");
@@ -20,9 +21,9 @@ public class ActionsTest extends TestBase {
         action.moveToElement(hover).perform();
         driver.findElement(By.id("link2")).click();
         Assert.assertEquals(driver.getTitle(), "Google");
-        driver.get("https://chercher.tech/practice/practice-pop-ups-selenium-webdriver");
     }
 
+    // double click
     @Test
     public void testActions2() {
         driver.get("https://chercher.tech/practice/practice-pop-ups-selenium-webdriver");
@@ -34,6 +35,7 @@ public class ActionsTest extends TestBase {
         alert.accept();
     }
 
+    // double click in chain
     @Test
     public void testActions3() {
         driver.get("https://chercher.tech/practice/practice-pop-ups-selenium-webdriver");
@@ -46,6 +48,7 @@ public class ActionsTest extends TestBase {
 
     }
 
+    // drag and drop
     @Test
     public void testActions4() {
 
@@ -57,22 +60,33 @@ public class ActionsTest extends TestBase {
         BrowserUtils.sleep(3);
     }
 
+    // keyboard actions
     @Test
     public void testActions5() {
         driver.get("https://practice.cydeo.com/key_presses");
         Actions action = new Actions(driver);
+        WebElement result = driver.findElement(By.id("result"));
 
         action.sendKeys(Keys.SPACE).perform();
         BrowserUtils.sleep(2);
+        Assert.assertEquals(result.getText(), "You entered: SPACE");
+
 
         action.sendKeys(Keys.ESCAPE).perform();
         BrowserUtils.sleep(2);
+        Assert.assertEquals(result.getText(), "You entered: ESCAPE");
 
         action.sendKeys(Keys.SHIFT).perform();
         BrowserUtils.sleep(2);
+        Assert.assertEquals(result.getText(), "You entered: SHIFT");
 
         action.sendKeys(Keys.TAB).perform();
         BrowserUtils.sleep(2);
+        Assert.assertEquals(result.getText(), "You entered: TAB");
+
+        action.sendKeys("H").perform();
+        BrowserUtils.sleep(2);
+        Assert.assertEquals(result.getText(), "You entered: H");
     }
 
 }
