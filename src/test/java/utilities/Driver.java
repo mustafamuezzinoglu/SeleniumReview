@@ -12,6 +12,7 @@ public class Driver {
 
     /*
     Creating a private constructor, so we are closing access to the object of this class from outside the class
+    we wanna use same driver for all the tests so private
      */
 
     private Driver() {

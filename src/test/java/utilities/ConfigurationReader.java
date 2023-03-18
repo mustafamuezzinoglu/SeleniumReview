@@ -11,7 +11,7 @@ public class ConfigurationReader {
 
     static {
         try {
-            //2- We need to open the file in java memory: FileInputStream
+            //2- We need to open the file in java memory: FileInputStream this helps us to locate the file
             FileInputStream file = new FileInputStream("configuration.properties");
 
             //3- Load the properties object using FileInputStream object

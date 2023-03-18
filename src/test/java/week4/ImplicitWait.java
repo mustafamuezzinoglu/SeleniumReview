@@ -18,7 +18,7 @@ public class ImplicitWait {
 
 
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); if we dont use this line we will get  no such element because the text is loading 5 seconds so
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //if we use it auto wait to 10 seconds
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //if we use it auto wait to 10 secondsx
         driver.get("https://practice.cydeo.com/dynamic_loading/4");
 
         WebElement text = driver.findElement(By.cssSelector("div#finish>h4"));

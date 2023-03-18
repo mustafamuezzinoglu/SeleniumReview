@@ -14,26 +14,27 @@ public class XpathLocators {
 
 
 
-        // xpath is another custom locators
-        // we have two types of syntax of xpath
+        // xpath is another custom locators  we have two types of syntax of xpath
 
-//         1. absolute xpath
-        // it starts with single slash ( / ), starts from html tag, go down the element you want to locate , step by step onr bye one
-
+//         1. absolute xpath : it starts with single slash ( / ), starts from html tag, go down the element you want to locate , step by step onr bye one
 
 //        2. relative xpath
+
+
 //    first method  ---> //tagName[@attributeName='value']
-//         frequently used syntax
-
-
 //    second method ---> //tagName[contains(@attribute, 'value’)]
 //    third method  ---> //tagName[.='text'] (same as //tagName[text()='text’], . represents text)
+
 //   or you can         //*[@attribute='value’] ( use * when we don't want use tag name)
 //                      //*[@*='*']
+
+
 
         /*
         in xpath we also can go from parent to child, use /
          in xpath, we can go from CHILD to PARENT, use /..
+
+
 
          in xpath, we also can use siblings method, to select by siblings
 

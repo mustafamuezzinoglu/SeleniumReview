@@ -4,29 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8e1d1b-f19c-43fd-9827-3897c73fa977" name="Changes" comment="week 5 first commit">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week5/AlertReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week5/IframeReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week5/WindowsHandleReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week5/propertiesReview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9e8e1d1b-f19c-43fd-9827-3897c73fa977" name="Changes" comment="week 5 finished">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/CheckBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/RadioBtnPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week6/ActionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week6/JSExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week6/JavaFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week6/TableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week6/UploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week6/test document" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week3/XpathLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/XpathLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/ImplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/ImplicitWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week5/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week5/DropdownTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/week5/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week5/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilities/CRM_Utilities_day7_task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilities/ConfigurationReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilities/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilities/WebDriverFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilities/WebTableUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilities/utility/ChromeStartUtility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilities/utility/RadioUtility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilities/utility/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilities/utility/TestActualExpectedUtility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/utilities/utility/WaitUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/WaitUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +43,6 @@
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="TestNG" name="AlertReview.test3" />
-    </enabled-run-configurations>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -70,16 +58,16 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/SeleniumReview/src/test",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Asus/IdeaProjects/SeleniumReview/src/test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\IdeaProjects\SeleniumReview\src\test" />
@@ -91,8 +79,21 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WindowsHandleReview.testWindowsHandleReview">
-    <configuration name="AlertReview.test3 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PropertiesReview.test1">
+    <configuration name="CheckBoxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week4.CheckBoxes" />
+      <module name="SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropdownTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +102,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week5" />
-      <option name="MAIN_CLASS_NAME" value="week5.AlertReview" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="week5.DropdownTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertReview.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DropdownTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week5" />
-      <option name="MAIN_CLASS_NAME" value="week5.AlertReview" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="week5.DropdownTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IframeReview" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PropertiesReview.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -137,25 +138,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week5" />
-      <option name="MAIN_CLASS_NAME" value="week5.IframeReview" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowsHandleReview.testWindowsHandleReview (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week5" />
-      <option name="MAIN_CLASS_NAME" value="week5.WindowsHandleReview" />
-      <option name="METHOD_NAME" value="testWindowsHandleReview" />
+      <option name="MAIN_CLASS_NAME" value="week5.PropertiesReview" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowsHandleReview.testWindowsHandleReview" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="propertiesReview.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +156,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week5" />
-      <option name="MAIN_CLASS_NAME" value="week5.WindowsHandleReview" />
-      <option name="METHOD_NAME" value="testWindowsHandleReview" />
+      <option name="MAIN_CLASS_NAME" value="week5.propertiesReview" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -183,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WindowsHandleReview.testWindowsHandleReview" />
-        <item itemvalue="TestNG.AlertReview.test3" />
-        <item itemvalue="TestNG.WindowsHandleReview.testWindowsHandleReview (1)" />
-        <item itemvalue="TestNG.IframeReview" />
-        <item itemvalue="TestNG.AlertReview.test3 (1)" />
+        <item itemvalue="TestNG.PropertiesReview.test1" />
+        <item itemvalue="TestNG.propertiesReview.test1" />
+        <item itemvalue="TestNG.DropdownTest.test2" />
+        <item itemvalue="TestNG.DropdownTest.test1" />
+        <item itemvalue="Application.CheckBoxes" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +188,13 @@
       <workItem from="1676216938011" duration="2804000" />
       <workItem from="1676481549046" duration="258000" />
       <workItem from="1676648794362" duration="601000" />
-      <workItem from="1676902773232" duration="17738000" />
+      <workItem from="1676902773232" duration="17838000" />
+      <workItem from="1677082967794" duration="630000" />
+      <workItem from="1677337970357" duration="5109000" />
+      <workItem from="1677357823014" duration="10006000" />
+      <workItem from="1677794388764" duration="1804000" />
+      <workItem from="1677949381505" duration="1683000" />
+      <workItem from="1679143050923" duration="5408000" />
     </task>
     <task id="LOCAL-00001" summary="wee2 finished">
       <created>1676122995410</created>
@@ -248,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676969585714</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="week 5 finished">
+      <created>1676982370864</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676982370864</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +279,8 @@
     <MESSAGE value="week3 finished" />
     <MESSAGE value="week 4 finished" />
     <MESSAGE value="week 5 first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 5 first commit" />
+    <MESSAGE value="week 5 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 5 finished" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

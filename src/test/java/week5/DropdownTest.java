@@ -10,21 +10,22 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import utilities.WaitUtility;
 
 import java.util.List;
 
 public class DropdownTest {
-    static WebDriver driver;
+    WebDriver driver;
 
     @BeforeClass
-    public static void init() {
+    public void init() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 
     @AfterClass
-    public static void tearDown() {
+    public void tearDown() {
         driver.close();
     }
 
@@ -42,7 +43,9 @@ public class DropdownTest {
             System.out.println("option.getText " + option.getText());
         }
         select.selectByIndex(1);
+        WaitUtility.sleep(2);
         select.selectByVisibleText("Two");
+        WaitUtility.sleep(2);
         select.selectByValue("3");
     }
 

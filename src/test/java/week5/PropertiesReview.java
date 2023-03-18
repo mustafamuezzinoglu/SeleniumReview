@@ -2,7 +2,7 @@ package week5;
 
 import org.testng.annotations.Test;
 
-public class propertiesReview {
+public class PropertiesReview {
 
     @Test
     public void test1() {
@@ -10,5 +10,6 @@ public class propertiesReview {
         System.out.println(System.getProperty("os.name"));
         System.out.println(System.getProperty("java.version"));
         System.out.println(System.getProperty("java.compiler"));
+
     }
 }
