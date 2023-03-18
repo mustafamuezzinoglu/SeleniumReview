@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8e1d1b-f19c-43fd-9827-3897c73fa977" name="Changes" comment="week 5 finished">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/CheckBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/RadioBtnPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week6/ActionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week6/JSExecutorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week6/JavaFaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week6/TableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week6/UploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week6/test document" afterDir="false" />
+    <list default="true" id="9e8e1d1b-f19c-43fd-9827-3897c73fa977" name="Changes" comment="some addings">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week5/AlertReview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week3/XpathLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/XpathLocators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week4/ImplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/ImplicitWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week5/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week5/DropdownTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/week5/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week5/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week5/WindowsHandleReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week5/WindowsHandleReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week6/JavaFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/JavaFaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week6/TableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week6/TableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,30 +70,17 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PropertiesReview.test1">
-    <configuration name="CheckBoxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4.CheckBoxes" />
+  <component name="RunManager" selected="TestNG.UploadTest.test1 (1)">
+    <configuration name="JavaFaker.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.*" />
+          <option name="PATTERN" value="week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DropdownTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week5" />
-      <option name="MAIN_CLASS_NAME" value="week5.DropdownTest" />
+      <option name="PACKAGE_NAME" value="week6" />
+      <option name="MAIN_CLASS_NAME" value="week6.JavaFaker" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -111,16 +89,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropdownTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TableTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week5.*" />
+          <option name="PATTERN" value="week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week5" />
-      <option name="MAIN_CLASS_NAME" value="week5.DropdownTest" />
+      <option name="PACKAGE_NAME" value="week6" />
+      <option name="MAIN_CLASS_NAME" value="week6.TableTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TableTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week6" />
+      <option name="MAIN_CLASS_NAME" value="week6.TableTest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -129,16 +125,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertiesReview.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UploadTest.test1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week5.*" />
+          <option name="PATTERN" value="week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week5" />
-      <option name="MAIN_CLASS_NAME" value="week5.PropertiesReview" />
+      <option name="PACKAGE_NAME" value="week6" />
+      <option name="MAIN_CLASS_NAME" value="week6.UploadTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -147,16 +143,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="propertiesReview.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UploadTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumReview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week5.*" />
+          <option name="PATTERN" value="week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week5" />
-      <option name="MAIN_CLASS_NAME" value="week5.propertiesReview" />
+      <option name="PACKAGE_NAME" value="week6" />
+      <option name="MAIN_CLASS_NAME" value="week6.UploadTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -167,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PropertiesReview.test1" />
-        <item itemvalue="TestNG.propertiesReview.test1" />
-        <item itemvalue="TestNG.DropdownTest.test2" />
-        <item itemvalue="TestNG.DropdownTest.test1" />
-        <item itemvalue="Application.CheckBoxes" />
+        <item itemvalue="TestNG.UploadTest.test1 (1)" />
+        <item itemvalue="TestNG.UploadTest.test1" />
+        <item itemvalue="TestNG.JavaFaker.test1" />
+        <item itemvalue="TestNG.TableTest.test2" />
+        <item itemvalue="TestNG.TableTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +190,7 @@
       <workItem from="1677357823014" duration="10006000" />
       <workItem from="1677794388764" duration="1804000" />
       <workItem from="1677949381505" duration="1683000" />
-      <workItem from="1679143050923" duration="5408000" />
+      <workItem from="1679143050923" duration="11722000" />
     </task>
     <task id="LOCAL-00001" summary="wee2 finished">
       <created>1676122995410</created>
@@ -245,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676982370864</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="some addings">
+      <created>1679150759027</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679150759027</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +283,8 @@
     <MESSAGE value="week 4 finished" />
     <MESSAGE value="week 5 first commit" />
     <MESSAGE value="week 5 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 5 finished" />
+    <MESSAGE value="some addings" />
+    <option name="LAST_COMMIT_MESSAGE" value="some addings" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

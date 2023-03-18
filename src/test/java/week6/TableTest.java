@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilities.Driver;
 import week5.TestBase;
 
 import java.util.List;
@@ -21,7 +20,7 @@ public class TableTest extends TestBase {
 
     @Test
     public void test2() {
-        Driver.getDriver().get("https://afd.calpoly.edu/web/sample-tables");
+        driver.get("https://afd.calpoly.edu/web/sample-tables");
         String drName = "Dr. Steve";
         List<WebElement> info = driver.findElements(By.xpath("//td[contains(text(),'" + drName + "')]/following-sibling::td"));
         Assert.assertEquals(info.get(0).getText(), "555-5678");

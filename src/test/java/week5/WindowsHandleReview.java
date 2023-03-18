@@ -12,15 +12,16 @@ public class WindowsHandleReview extends TestBase {
 
         driver.get("https://www.selenium.dev/documentation/webdriver/interactions/windows/");
         driver.findElement(By.linkText("new window")).click();
-        driver.findElement(By.linkText("new window")).click();
         Set<String> windowHandles = driver.getWindowHandles();
         for (String windowHandle : windowHandles) {
             driver.switchTo().window(windowHandle);
-            if (driver.getTitle().equals("selenium ")) {
-                break;
-            }
+//            if (driver.getTitle().equals("g")) {
+//                break;
+//            }
         }
+
         System.out.println(driver.getCurrentUrl());
+        System.out.println(driver.getTitle());
 
     }
 

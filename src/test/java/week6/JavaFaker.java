@@ -22,7 +22,8 @@ public class JavaFaker {
         System.out.println("age = " + age);
 
         String actorName = faker.chuckNorris().fact();
-//        System.out.println(actorName);
+
+        System.out.println(actorName);
 
     }
 }
